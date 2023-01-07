@@ -1,0 +1,47 @@
+body {
+    background-image: url(https://img.freepik.com/free-vector/80-style-background-with-geometric-shapes_23-2148216130.jpg?w=2000);
+    background-size: cover;
+}
+
+h1 {
+    margin-left: 45%;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    background-color: rgb(255, 135, 251);
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 2px;
+    display: center;
+}
+
+/* .navIcons {
+    display: inline-block;
+} */
+
+img {
+    margin-right: auto;
+    margin-left: 40%;
+    width: 300px; 
+}
+
+button {
+    width: 200px;
+    height: 45px;
+    margin-top: 20px;
+    margin-left: 40px;
+    display: inline-block;
+}
+
+.cartoons {
+    margin-left: 200px;
+}
+
+p.ending {
+       font-size: 12px;
+       margin-left: 35%;
+       margin-right: 25%; 
+}
+    

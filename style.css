@@ -5,13 +5,19 @@ body {
     padding: 0;
 }
 
+.nav a {
+    color: black;
+    text-decoration: none;
+}
+
 header ul {
     background-color: rgb(158, 235, 243);
     width: 100%;
     list-style-type: none;
     margin: 0;
     padding: 0; 
-    position: fixed;     
+    position: fixed; 
+    font-size: 26px;    
 }
 
 li {
@@ -25,7 +31,7 @@ h1 {
 
 p {
     font-size: 22px;
-    background-color: rgb(255, 135, 251);
+    background-color: rgb(238, 167, 236);
     margin-left: 10px;
     margin-bottom: 10px;
     border: 2px;
@@ -41,6 +47,11 @@ img.goat {
     margin-right: auto;
     margin-left: 40%;
     width: 425px; 
+}
+
+h2 {
+    margin-left: 45%;
+    padding: 0;
 }
 
 img.teller {

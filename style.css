@@ -1,14 +1,29 @@
 body {
-    background-image: url(https://img.freepik.com/free-vector/80-style-background-with-geometric-shapes_23-2148216130.jpg?w=2000);
+    background-image: url(https://wallpapers.com/images/hd/90s-jazz-solo-cup-pattern-f38a7hcl9xd58w4r.jpg);
     background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+header ul {
+    background-color: rgb(158, 235, 243);
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    position: fixed;     
+}
+
+li {
+    padding: 20px;
+    display: inline-block;
 }
 
 h1 {
-    margin-left: 45%;
+    margin-left: 40%;
 }
 
 p {
-    color: rgb(255, 255, 255);
     font-size: 22px;
     background-color: rgb(255, 135, 251);
     margin-left: 10px;
@@ -21,27 +36,44 @@ p {
     display: inline-block;
 } */
 
-img {
+img.goat {
+    
     margin-right: auto;
     margin-left: 40%;
-    width: 300px; 
+    width: 425px; 
+}
+
+img.teller {
+    margin-right: auto;
+    margin-left: 38%;
+    width: 500px; 
+}
+
+img.battalion {
+    margin-top: 5%;
+    margin-right: auto;
+    margin-left: 35%; 
 }
 
 button {
     width: 200px;
     height: 45px;
-    margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: 40px;
     display: inline-block;
+}
+
+button.yes {
+    margin-left: 40%;
 }
 
 .cartoons {
     margin-left: 200px;
 }
 
-p.ending {
-       font-size: 12px;
-       margin-left: 35%;
-       margin-right: 25%; 
-}
     
+h4 {
+    font-size: 40px;
+    margin-left: 30%;
+    margin-bottom: 15px;
+}
